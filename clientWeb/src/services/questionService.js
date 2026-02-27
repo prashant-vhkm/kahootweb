@@ -1,3 +1,4 @@
+const API = "http://localhost:5000/api/questions";
 
 async function handle(res) {
   const data = await res.json().catch(() => ({}));
