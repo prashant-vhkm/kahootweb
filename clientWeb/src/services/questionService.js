@@ -1,4 +1,3 @@
-const API = "https://kahoot-server-w9v0.onrender.com/api/questions";
 
 async function handle(res) {
   const data = await res.json().catch(() => ({}));
